@@ -1,6 +1,8 @@
 # Inkscape-Lasertools-Plugin
 A simple plugin to convert Inkscape vector graphics to Gcode for DIY laser engravers
 
+**IMPORTANT**: I've changed a couple of things to fit my modified Ender 3 v2, this is probably not useful to most people. Stick with original version from ChrisWag91 
+
 ## Version 1.x
 The version found in the folder v1.0 is intended to be used with v1.x of Inkscape.
 This Version is work in progress. Please feel free to test it, but don't rely on it in production.

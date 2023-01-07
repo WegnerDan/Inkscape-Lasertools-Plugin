@@ -65,7 +65,7 @@ DEFAULTS = {
 ;https://github.com/ChrisWag91/Inkscape-Lasertools-Plugin
 
 """,
-    'footer': """G00 X0 Y0
+    'footer': """
 
 """
 }
@@ -1554,7 +1554,7 @@ class laser_gcode(inkex.EffectExtension):
 
     def recursiveFuseTransform(self, node, transf=[[1.0, 0.0, 0.0], [0.0, 1.0, 0.0]]):
 
-        transf = Transform(transf) * Transform(node.get("transform", None))
+        transf = Transform(transf) @ Transform(node.get("transform", None))
 
         if 'transform' in node.attrib:
             del node.attrib['transform']
