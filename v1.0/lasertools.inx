@@ -43,7 +43,7 @@
 
 			<param name="name" type="description">Suffix G-Code</param>
 			<param name="suffix1" type="string" _gui-text=" ">M107 ;Deactivate laser</param>	
-			<param name="suffix2" type="string" _gui-text=" "></param>
+			<param name="suffix2" type="string" _gui-text=" ">G00 X0 Y99999999 F7000.0 ;Present work piece </param>
 			<param name="suffix3" type="string" _gui-text=" "></param>
 			<param name="suffix4" type="string" _gui-text=" "></param>
 			<param name="suffix5" type="string" _gui-text=" ">M02	;End of program</param>			
